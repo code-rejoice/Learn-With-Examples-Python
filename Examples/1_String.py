@@ -98,32 +98,3 @@ print (word)
 
 print("\nlength of word is")
 print (len(word))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
