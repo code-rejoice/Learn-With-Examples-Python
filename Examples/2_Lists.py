@@ -10,32 +10,32 @@ print("Lists -->")
 print(Lists)
 
 #using indexes in List
-print("if we want to get a character in a particular index we can use the below code ")
-print("Lists[2] --> ")
+print("\nif we want to get a character in a particular\n index we can use the below code ")
+print("\nLists[2] --> ")
 print(Lists[2])
 
-print("if we want to get a character in a reverse range use -ve numbers in index, here 4 has an index -1")
-print("Lists[-1] --> ")
+print("\nif we want to get a character in a reverse range use -ve numbers\n in index, here 4 has an index -1")
+print("\nLists[-1] --> ")
 print(Lists[-1])
 
-print("if we want to get characters in a range use : , in this case we are trying to get characters from -2 position until end, hence we dont specify any number after :")
-print("Lists[-2:] --> ")
+print("if we want to get characters in a range use : , in this case we are\n trying to get characters from -2 position until end, \n hence we dont specify any number after :")
+print("\nLists[-2:] --> ")
 print(Lists[-2:])
 
-print("if we dont specify starting range and end range, entire list will be printed")
-print("Lists[:] --> ")
+print("if we dont specify starting range and end range\n, entire list will be printed")
+print("\nLists[:] --> ")
 print(Lists[:])
 
-print("\nif we have to add few more sets of numbers to the existing List, it can be done as follows ")
-print("Lists+[5,6,7,8] --> ")
+print("\nif we have to add few more sets of numbers to\n the existing List, it can be done as follows ")
+print("\nLists+[5,6,7,8] --> ")
 print(Lists+[5,6,7,8])
 
 print("\n assigning the result to a new list")
-print("Lists2=Lists+[5,6,7,8] --> ")
+print("\nLists2=Lists+[5,6,7,8] --> ")
 Lists2=Lists+[5,6,7,8]
 print(Lists2)
 
-print("\n assign a new value in nth index Lists2[n]= x  -> ")
+print("\n assign a new value in nth index Lists2[n]= x Lists2[4]=5.5 -> ")
 Lists2[4]=5.5
 
 
@@ -62,34 +62,3 @@ print(ListB)
 ListAB=[ListA,ListB]
 print("\nListAB = ListA, ListB --> ")
 print(ListAB)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

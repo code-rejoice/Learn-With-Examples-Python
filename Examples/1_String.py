@@ -50,6 +50,7 @@ print(a+b)
 # String indexing
 print("\n-->string Indexing: Declare a String variable and access the elements using index")
 word = "Python"
+print("word-->"+word)
 
 print("\n--> word[0]")
 print(word[0])
@@ -84,7 +85,7 @@ print(word[4:])
 print("--> word[-4]")
 print(word[-4])
 
-print("--> word[2]='N' --> String is immutable and hence cannot be changed, if we try to, we would get the below error.But we can always create a new String")
+print("--> word[2]='N' --> String is immutable and hence cannot be changed.\nif we try to, we would get the below error.But we can always create a new String")
 print("\nTraceback (most recent call last):")
 print("  File \"<stdin>\", line 1, in <module>")
 print("TypeError: 'str' object does not support item assignment")
