@@ -1,4 +1,4 @@
-#tutorials 4: if, if else, if elif else
+#tutorials 3: if, if else, if elif else
 
 print(
 	"-->if, if else, if else elif examples"
