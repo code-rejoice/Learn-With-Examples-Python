@@ -31,4 +31,45 @@ print("\nnumbers.remove('s')\n"
 "numbers.remove('x')\n")
 print("\nthe contents of numbers list after removing, is -->",numbers)
 
-#TO BE CONTINUED
+#usage of list.pop()
+
+print("\nnumbers.pop()\n")
+numbers.pop()
+print("\nthe contents of numbers list after popping the last item is -->",numbers)
+print("notice that 'eight' is removed ")
+
+print("\nnumbers.pop(0)\n")
+numbers.pop(0)
+print("\nthe contents of numbers list after popping the last item is -->",numbers)
+print("notice that 'zero' is removed")
+
+#usage of list.index(x,start_index, end_index)
+print("\nnumbers.index('one',0)\n")
+print(numbers.index('one',0))
+print("\nwe searched for the index of 'one' from the zeroth index and "
+"we see the response as 0")
+
+print("\nnumbers.index('one',2,7)\n")
+print(numbers.index('one',2,7))
+print("\nwe searched for the index of 'one' between index 2 and 7 "
+"we see the response as 4")
+
+#usage of list.count(x)
+print("numbers.count('one')\n")
+print(numbers.count('one'))
+print("we see the ocurrence of 'one' twice\n")
+
+#usage of list.count(x)
+print("numbers.sort()\n")
+numbers.sort()
+print(numbers)
+
+
+#usage of list.reverse()
+print("numbers.reverse()\n")
+numbers.reverse()
+print(numbers)
+
+#usage of list.copy()
+numCopy=numbers.copy()
+print("\nnumCopy contents =",numCopy)
