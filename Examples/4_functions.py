@@ -1,4 +1,4 @@
-#tutorials 5: functions
+#tutorials 4: functions
 
 print(
 	"-->examples to define functions\n"
